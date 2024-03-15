@@ -1,81 +1,151 @@
-:root{
-    --main-bg-color: #446;
+:root {
+    --main-bg-color: #293d3e;
+    color: white;
+    ;
 
 }
 
-*{
+* {
     padding: 0;
     margin: 0;
 }
-header{
-    height:80px;
+
+header {
+    height: 80px;
     background-color: var(--main-bg-color);
     color: white;
 }
-.logo{
+
+.logo {
     display: flex;
     align-items: center;
-    
+
 }
-.logo img{
+
+.logo img {
     padding: 4px 25px;
     width: 80px;
 }
-nav{
+
+nav {
     display: flex;
 }
-nav ul{
+
+nav ul {
     display: flex;
     padding: 0px 20px;
     justify-content: flex-start;
     align-items: center;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
     padding: 0 20px;
-    
+
 }
-nav ul li a{
+
+nav ul li a {
     color: white;
     text-decoration: none;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     color: rgb(193, 193, 212);
     font-weight: bold;
 }
-.search{
+
+.search {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
-.search input{
+
+.search input {
     width: 400px;
     height: 20px;
     border-radius: 5px;
     margin: 0 16px 0px 50px;
 
 }
-.container{
+
+.container {
     height: 100vh;
     background-image: url('OIP.jpg');
- }
-.slider{
-    
-    width: 80vw;
-    margin: 40px auto;
+    background-image: url('cosmetic.png');
+    background-position: center;
+    margin: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* border: 50px solid blue; */
 }
 
+.slider {
+    height: 200px;
+    width: 98vw;
+    margin: 0px 20px 0px 20px;
+    background-color: #694242;
+    border: 2px solid rgb(95, 42, 42);
+    border-radius: 4px;
+}
 
-footer{
+#img1 {
+    width: 800px;
+    height: 196px
+}
+
+#img2 {
+    height: 196px;
+    width: 700px
+}
+
+.card {
+    background-color: rgb(37, 37, 67);
+    display: flex;
+    margin: 200px 50px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    background-color: aqua;
+    margin: 5px;
+    width: 200px;
+    border: 2px dotted black;
+    height: 200px;
+    padding: 20px;
+    
+}
+.smallbox{
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    padding: 0px 2px 0px;
+}
+  .contact
+  {
+    background-color:var(--main-bg-color);
+    /* width: 1545px; */
+    /* height: 55px; */
+    /* margin: 159px auto auto auto; */
+    text-align: center;
+     
+}
+.contact a{
+    color: white;
+    text-decoration: none;
+}
+.contact a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+footer {
     background-color: var(--main-bg-color);
     color: white;
     height: 12vh;
     font-family: 'Times New Roman', Times, serif;
 }
-
-
-
-
-
-    
